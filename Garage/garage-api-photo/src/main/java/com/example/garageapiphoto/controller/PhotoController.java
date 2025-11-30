@@ -1,6 +1,6 @@
 package com.example.garageapiphoto.controller;
 
-import com.example.garageapiphoto.services.PhotoService;
+import com.example.garageapiphoto.service.PhotoService;
 import com.example.garagecore.entity.Photo;
 
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
-package com.example.garageapiphoto.services;
+package com.example.garageapiphoto.service;
 
 import com.example.garagecore.entity.Photo;
-import com.example.garageapiphoto.repositories.PhotoRepository;
+import com.example.garageapiphoto.repository.PhotoRepository;
 
 public class PhotoService {
     public final PhotoRepository photoRepository;

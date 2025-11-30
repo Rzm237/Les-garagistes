@@ -1,4 +1,4 @@
-package com.example.garageapiphoto.repositories;
+package com.example.garageapiphoto.repository;
 
 import com.example.garagecore.entity.Photo;
 import java.util.UUID;
