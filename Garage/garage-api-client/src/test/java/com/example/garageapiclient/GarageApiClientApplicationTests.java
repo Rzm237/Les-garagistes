@@ -1,4 +1,4 @@
-package com.bodio.garageapiclient;
+package com.example.garageapiclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -33,5 +33,6 @@ public class Accord {
     private Devis devis;
 
     @OneToMany(mappedBy = "accord", cascade = CascadeType.ALL)
+    @Builder.Default
     private List<Photo> photos = new ArrayList<>();
 }

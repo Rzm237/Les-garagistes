@@ -1,4 +1,4 @@
-package com.bodio.garageapireparations;
+package com.example.garageapireparations;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,5 @@
 package com.example.garageapplication;
 
-import com.example.garagecore.entity.Accord;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.persistence.autoconfigure.EntityScan;

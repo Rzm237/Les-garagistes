@@ -27,6 +27,7 @@ public class Sinistre {
     private StatutSinistre statutSinistre;
 
     @OneToMany(mappedBy = "sinistre", cascade = CascadeType.ALL)
+    @Builder.Default
     private List<Vehicule> vehicules = new ArrayList<>();
 
     @OneToOne

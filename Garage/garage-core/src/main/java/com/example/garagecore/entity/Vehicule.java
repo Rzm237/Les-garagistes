@@ -37,5 +37,6 @@ public class Vehicule {
     private Sinistre sinistre;
 
     @OneToMany(mappedBy = "vehicule", cascade = CascadeType.ALL)
+    @Builder.Default
     private List<Devis> devisList = new ArrayList<>();
 }

@@ -24,5 +24,6 @@ public class Client {
     private String telephone;
     private String adresse;
     @OneToMany(mappedBy = "client", cascade = CascadeType.ALL)
+    @Builder.Default 
     private List<Vehicule> vehicules = new ArrayList<>();
 }
